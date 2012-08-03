@@ -1,3 +1,5 @@
+![](https://raw.github.com/mkwiatkowski/mandelbrot/master/mandelbrot.png)
+
 This script was an experiment in using C extensions with Python. Generating [Mandelbrot set](http://en.wikipedia.org/wiki/Mandelbrot_set) visualization is expensive, so coding a C extension for that was a perfect fit. Another neat thing about this program is that it will run fine without a compiled extension, although much slower.
 
 For good performance, first compile the C extension with:
